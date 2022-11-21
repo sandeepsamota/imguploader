@@ -47,6 +47,14 @@ const Create = () => {
         body: data,
       }
     );
+    console.log(res);
+
+    // .then((res) => res.json())
+    // .then((res) => {
+    //   localStorage.setItem(res?.data?.[0]);
+    // });
+    // localStorage.setItem(res);
+
     const res2 = await res.json();
     return res2.url;
   };

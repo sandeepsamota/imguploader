@@ -21,7 +21,6 @@ const Home = ({ products }) => {
     );
   });
 
-  console.log(products);
   return <div className="rootcard">{productList}</div>;
 };
 
